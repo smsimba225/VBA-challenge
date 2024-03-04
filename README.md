@@ -22,6 +22,8 @@ The code then reported the information to the report section in the middle of th
 
 While Debugging I realized I also needed to insert code that would reset the OpenPrice, ClosingPrice, PercentChange as well, otherwise it would mess up the results while working in other worksheets. 
 
+I did put messages along my code to remind myself what each line I did was for.
+
 ---------
 References:  The Microsoft  Visual Basic for Applications article "Macro to Loop Through All Worksheets in a Workbook" was very helpful in figuring out how to loop the code across all of the worksheets in the workbook.  I used the same variable name 'Current' from one of the examples on the page and used the For Each loop to accomplish what I needed. https://support.microsoft.com/en-us/topic/macro-to-loop-through-all-worksheets-in-a-workbook-feef14e3-97cf-00e2-538b-5da40186e2b0
 
