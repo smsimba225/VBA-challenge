@@ -1,6 +1,6 @@
 Attribute VB_Name = "Module1"
 
-Public Sub Script1()
+Public Sub StockScript()
     
     Dim Current As Worksheet
     For Each Current In Worksheets
@@ -113,8 +113,8 @@ Public Sub Script1()
         Current.Range("P3").Value = DecreaseTicker
         Current.Range("Q4").Value = GreatestVolume
         Current.Range("P4").Value = GreatestVolumeName
-        Current.Range("O1:Q4").Columns.AutoFit
-        Current.Range("Q4").ColumnWidth = 8
+        Current.Range("O1").ColumnWidth = 20
+        Current.Range("P1:Q4").ColumnWidth = 8
         
     Next
         
